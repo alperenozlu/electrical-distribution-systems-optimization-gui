@@ -3,4 +3,4 @@ It is a MATLAB application that enables you to perform load flow analysis in ele
 
 
 
-For program installation and development guide, please visit our [wiki](https://github.com/alperenozlu/electrical-distribution-systems-optimization-gui) page. 
+For program installation and development guide, please visit our [wiki](https://github.com/alperenozlu/electrical-distribution-systems-optimization-gui/wiki) page. 
