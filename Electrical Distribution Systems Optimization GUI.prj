@@ -12,16 +12,17 @@
     </param.icons>
     <param.summary>It is a MATLAB application that enables you to perform load flow analysis in electricity distribution systems.</param.summary>
     <param.description>It is a MATLAB application that enables you to perform load flow analysis in electricity distribution systems.</param.description>
-    <param.screenshot>C:\Users\alperen\AppData\Local\Temp\tp2f5212d3_d7ec_4267_9eb3_2b5953a981b9.png</param.screenshot>
+    <param.screenshot />
     <param.version>1.1</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.output>C:\Users\alperen\Desktop\MyAppExport</param.output>
+    <param.output>C:\Users\alperen\Desktop</param.output>
     <param.guid>92717809-428c-4361-a3e9-95b95aa3b5e0</param.guid>
     <unset>
       <param.company />
+      <param.screenshot />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -41,11 +42,11 @@
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\alperen\Desktop" name="MyAppExport" optional="false">C:\Users\alperen\Desktop\MyAppExport</file>
+      <file location="C:\Users\alperen" name="Desktop" optional="false">C:\Users\alperen\Desktop</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2020b</root>
+      <root>C:\Program Files\MATLAB\R2021b</root>
       <toolboxes />
     </matlab>
     <platform>
