@@ -1,7 +1,7 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="934424170" file="C:\Users\alperen\Desktop\Tez\SourceCode\Electrical Distribution Systems Optimization GUI.prj" location="C:\Users\alperen\Desktop\Tez\SourceCode" name="Electrical Distribution Systems Optimization GUI" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1396380943" file="C:\Users\alperen\Desktop\Tez\SourceCode\Electrical Distribution Systems Optimization GUI.prj" location="C:\Users\alperen\Desktop\Tez\SourceCode" name="Electrical Distribution Systems Optimization GUI" target="target.mlapps" target-name="Package App">
     <param.appname>Electrical Distribution Systems Optimization GUI</param.appname>
-    <param.authnamewatermark>Alperen Ozlu</param.authnamewatermark>
+    <param.authnamewatermark>Alperen Özlü</param.authnamewatermark>
     <param.email>alperenozlu@gmail.com</param.email>
     <param.company />
     <param.icon>${PROJECT_ROOT}\Electrical Distribution Systems Optimization GUI_resources\icon_24.png</param.icon>
@@ -10,39 +10,45 @@
       <file>${PROJECT_ROOT}\Electrical Distribution Systems Optimization GUI_resources\icon_24.png</file>
       <file>${PROJECT_ROOT}\Electrical Distribution Systems Optimization GUI_resources\icon_16.png</file>
     </param.icons>
-    <param.summary>It is a MATLAB application that enables you to perform load flow analysis in electricity distribution systems.</param.summary>
-    <param.description>It is a MATLAB application that enables you to perform load flow analysis in electricity distribution systems.</param.description>
+    <param.summary />
+    <param.description />
     <param.screenshot />
-    <param.version>1.1</param.version>
+    <param.version>1.2</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.output>C:\Users\alperen\Desktop</param.output>
-    <param.guid>92717809-428c-4361-a3e9-95b95aa3b5e0</param.guid>
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>4ed95a6e-e4fe-4e2a-a258-a4a2785699ce</param.guid>
     <unset>
       <param.company />
+      <param.summary />
+      <param.description />
       <param.screenshot />
       <param.products.name />
       <param.products.id />
       <param.products.version />
       <param.platforms />
+      <param.output />
     </unset>
     <fileset.main>
       <file>${PROJECT_ROOT}\app.mlapp</file>
     </fileset.main>
     <fileset.depfun>
+      <file>${PROJECT_ROOT}\.git\CasePreview\Legend.svg</file>
       <file>${PROJECT_ROOT}\about.mlapp</file>
     </fileset.depfun>
     <fileset.resources>
       <file>${PROJECT_ROOT}\CasePreview</file>
+      <file>${PROJECT_ROOT}\Electrical Distribution Systems Optimization GUI_resources</file>
       <file>${PROJECT_ROOT}\Helpers</file>
       <file>${PROJECT_ROOT}\Images</file>
-      <file>${PROJECT_ROOT}\README.md</file>
+      <file>${PROJECT_ROOT}\Resources</file>
+      <file>${PROJECT_ROOT}\Wiki</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\alperen" name="Desktop" optional="false">C:\Users\alperen\Desktop</file>
+      <file location="C:\Users\alperen\Desktop\Tez" name="SourceCode" optional="false">C:\Users\alperen\Desktop\Tez\SourceCode</file>
     </build-deliverables>
     <workflow />
     <matlab>
